@@ -19,7 +19,6 @@ console.log(value === 200)
 const num = Number(value)
 console.log(num === 200)
 
-
 // 5. Print a single check that is true only when a status code is 200 and a customer name is not an empty string
 
 const statusCode = 200
