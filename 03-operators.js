@@ -1,4 +1,5 @@
 // 1. Declare a let starting at 0, increase it with += twice, and print it
+
 let counter = 0
 counter += 1
 counter += 1

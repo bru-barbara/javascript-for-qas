@@ -7,6 +7,7 @@ console.log(firstName + ' ' + lastName)
 // 2. Print the same full name again, this time with a template literal
 
 console.log(`${firstName} ${lastName}`)
+
 // 3. Declare a customer name, a size, and a number of employees, and print a one-line summary using a template literal
 
 const customerName = 'Vinicius'
