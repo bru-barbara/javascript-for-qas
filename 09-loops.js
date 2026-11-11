@@ -2,19 +2,27 @@
 
 const sizes = ['Small', 'Medium', 'Large']
 
-for (let i = 0; i < sizes.length; i++) {
+let i = 0
+
+for (i = 0; i < 3; i++) {
     console.log(`${i}: ${sizes[i]}`)
 }
 
 // 2. Print the same values using for...of, without an index
 
-for (const size of sizes) {
+let size = 0
+
+for (size of sizes) {
     console.log(size)
 }
 
 // 3. Use for...in to print every key and its value from an object describing a customer
 
-const customer = { name: 'Acme Corporation', size: 'Large', active: true }
+const customer = {
+    name: 'Bruna',
+    age: 30,
+    sex: 'Female'
+}
 
 for (const key in customer) {
     console.log(`${key}: ${customer[key]}`)
@@ -23,16 +31,21 @@ for (const key in customer) {
 // 4. Use a while loop to print three attempt numbers, and make sure it stops
 
 let attempts = 0
+
 while (attempts < 3) {
-    console.log(`Attempt ${attempts}`)
+    console.log(attempts)
     attempts++
 }
 
 // 5. Loop over an array of statuses and continue past 'draft', printing the rest
 
-const statuses = ['draft', 'active', 'archived']
+const statuses = ['Completed', 'In progress', 'Draft', 'Almost done']
+
 for (const status of statuses) {
-    if (status === 'draft') continue
+    if (status === 'Draft') {
+        continue
+    }
+
     console.log(status)
 }
 
