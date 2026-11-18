@@ -38,3 +38,18 @@ const names = customer.map((n) => n.name)
 console.log(names)
 
 // 3. Given two arrays, return the items of the first that are not in the second.
+
+/* Removing duplicates
+
+1. Remove duplicate values from an array.
+2. Check whether a list contains any duplicates at all.
+
+A simple conversion
+1. Given 'name=Acme;size=Large', produce an object.
+2. Given a list of log lines like '2026-03-12 ERROR something', return only the errors.
+
+The ones with a testing flavour
+
+1. Here is a function. What test cases would you write for it ?
+2. Write a function that checks whether an array is sorted.
+3. Given a table's rows as an array, check that a column is in ascending order */
